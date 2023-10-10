@@ -1,5 +1,6 @@
 baseURL: "https://hugo.niwanowa.tips/"
 title: にわのわのブログ
+languageCode: "ja"
 paginate: 5
 theme: PaperMod
 
