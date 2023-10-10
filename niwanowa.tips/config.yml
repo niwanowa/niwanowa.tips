@@ -74,7 +74,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "にわのわのブログ \U0001F44B"
     Content: Welcome to my blog
 
   socialIcons:
@@ -99,7 +99,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/niwanowa/niwanowa.tips/tree/main/niwanowa.tips/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
