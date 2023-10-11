@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "hugo shell",
+            "type": "shell",
+            "command": "bash -c \"docker run --rm -it -v $(pwd):/src klakegg/hugo:0.101.0-ext-alpine shell\"",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/niwanowa.tips"
+            }
+        },
+        {
+            "label": "hugo server",
+            "type": "shell",
+            "command": "bash -c \"docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server\"",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "options": {
+                "cwd": "${workspaceFolder}/niwanowa.tips"
+            }
+        }
+    ]
+}
