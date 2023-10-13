@@ -4,7 +4,7 @@
         {
             "label": "hugo shell",
             "type": "shell",
-            "command": "bash -c \"docker run --rm -it -v $(pwd):/src klakegg/hugo:0.101.0-ext-alpine shell\"",
+            "command": "bash -c \"docker run --rm -u=1000:1000 -it -v $(pwd):/src klakegg/hugo:0.101.0-ext-alpine shell\"",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
@@ -19,7 +19,7 @@
         {
             "label": "hugo server",
             "type": "shell",
-            "command": "bash -c \"docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server\"",
+            "command": "bash -c \"docker run --rm -u=1000:1000 -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:0.101.0 server\"",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
