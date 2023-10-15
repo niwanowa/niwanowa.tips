@@ -2,7 +2,6 @@
 title: Hello World(手動)
 author: niwa
 date: 2023-04-12T10:25:48+00:00
-url: /archives/7
 categories:
   - にわのわ.log
 

@@ -2,7 +2,6 @@
 title: コメダ珈琲 東札幌５条店で作業した
 author: niwa
 date: 2023-04-18T08:46:42+00:00
-url: /archives/87
 categories:
   - 訪れた場所
 

@@ -2,7 +2,6 @@
 title: 「技術書」の読書術を読んだ
 author: niwa
 date: 2023-04-18T09:27:29+00:00
-url: /archives/91
 categories:
   - 読んだ本
 

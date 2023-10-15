@@ -3,7 +3,6 @@ title: 「ゼロからのOS自作入門」開発環境構築メモ
 author: niwa
 date: -001-11-30T00:00:00+00:00
 draft: true
-url: /?p=98
 categories:
   - にわのわ.log
 

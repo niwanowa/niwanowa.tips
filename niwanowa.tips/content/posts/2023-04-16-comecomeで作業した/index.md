@@ -2,7 +2,6 @@
 title: COMECOMEで作業した
 author: niwa
 date: 2023-04-16T09:55:05+00:00
-url: /archives/60
 categories:
   - 訪れた場所
 

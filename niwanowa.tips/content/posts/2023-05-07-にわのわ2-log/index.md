@@ -2,7 +2,6 @@
 title: にわのわ(2).log
 author: niwa
 date: 2023-05-07T13:42:22+00:00
-url: /archives/108
 categories:
   - にわのわ.log
 

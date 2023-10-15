@@ -2,7 +2,6 @@
 title: DRIVEで作業した
 author: niwa
 date: 2023-04-16T08:29:19+00:00
-url: /archives/36
 categories:
   - 訪れた場所
 

@@ -2,7 +2,6 @@
 title: 我流wordpress構築ログ
 author: niwa
 date: 2023-04-17T07:53:46+00:00
-url: /archives/83
 categories:
   - にわのわ.log
 
