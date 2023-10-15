@@ -17,10 +17,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: にわのわのブログ
-  description: "あんなことやこんなこと"
+  title: "にわのわのブログ"
+  description: "あんなことやこんなことを"
   keywords: [Blog, Portfolio, PaperMod]
-  author: niwanowa
+  author: "niwanowa"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -35,13 +35,13 @@ params:
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
+  disableSpecial1stPost: true
+  disableScrollToTop: true
+  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -109,17 +109,19 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
-    - name: Archive
+    - name: Archives
       url: archives
       weight: 5
     - name: Search
       url: search/
       weight: 10
-    - name: Tags
-      url: tags/
+    - name: Categories
+      url: categories/
       weight: 10
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
