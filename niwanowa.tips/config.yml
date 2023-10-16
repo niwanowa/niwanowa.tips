@@ -111,7 +111,7 @@ params:
 menu:
   main:
     - name: Archives
-      url: archives
+      url: archives/
       weight: 5
     - name: Search
       url: search/
