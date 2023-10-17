@@ -13,6 +13,8 @@ hugoは静的サイトジェネレーターなのでgit管理できるし、
 S3上に乗っけるだけなのでlightsailで動かしてるwordpressよりも安くなるし、  
 元々wpをごりごり活用できてたわけではないので試しに乗り換えてみようと思った。
 
+~~富豪になりたいからhugo使ってみようかななんつって~~
+
 ## hugoの構築する
 hugoの構築は[この記事](https://dev.classmethod.jp/articles/cloudfront-and-s3-using-hugo-with-github-actions/)を参考に構築した。
 唯一、iam-role.yamlにだけ変更を加えていて、48行目付近を以下のように変更している。
