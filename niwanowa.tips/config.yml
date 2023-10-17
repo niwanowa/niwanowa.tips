@@ -22,7 +22,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: "niwanowa"
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/人食いザメ.png"]
   imageQuality: 75
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
