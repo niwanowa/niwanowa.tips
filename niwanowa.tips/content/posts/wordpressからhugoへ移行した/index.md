@@ -14,8 +14,7 @@ S3上に乗っけるだけなのでlightsailで動かしてるwordpressよりも
 元々wpをごりごり活用できてたわけではないので試しに乗り換えてみようと思った。
 
 ## hugoの構築する
-hugoの構築は以下を参考に構築した。
-{{< blog-card "https://dev.classmethod.jp/articles/cloudfront-and-s3-using-hugo-with-github-actions/" >}}
+hugoの構築は[この記事](https://dev.classmethod.jp/articles/cloudfront-and-s3-using-hugo-with-github-actions/)を参考に構築した。
 唯一、iam-role.yamlにだけ変更を加えていて、48行目付近を以下のように変更している。
 ``` yaml
   S3AccessPolicy:
