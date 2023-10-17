@@ -23,6 +23,7 @@ params:
   author: "niwanowa"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
+  imageQuality: 75
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -50,7 +51,7 @@ params:
 
   label:
     text: "Home"
-    icon: /static/favicon.ico
+    icon: /favicon.ico
     iconHeight: 35
 
   # profile-mode
