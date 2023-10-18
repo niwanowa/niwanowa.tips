@@ -50,7 +50,7 @@ params:
     # favicon: "/static/favicon.ico"
 
   label:
-    text: "Home"
+    text: "にわのわのブログ"
     icon: /favicon.ico
     iconHeight: 35
 
@@ -62,7 +62,7 @@ params:
     imageUrl: /static/favicon.ico
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: niwanowa
     buttons:
       - name: Posts
         url: posts
@@ -126,11 +126,11 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
 
 outputs:
     home:
