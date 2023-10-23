@@ -25,7 +25,7 @@ pip freeze -l > requirements.txt
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-##　使い方
+## 使い方
 ### プロジェクトの初期化
 ```shell
 poetry init -n
