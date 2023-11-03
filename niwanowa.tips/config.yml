@@ -57,17 +57,21 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: "にわのわのブログ"
-    subtitle: "あんなことやこんなことを"
-    imageUrl: /static/favicon.ico
-    imageWidth: 120
-    imageHeight: 120
+    title: "にわのわ"
+    subtitle: |-
+      札幌でフロントとかバックとかインフラとかダジャレをクリエイションしています  
+      Twitter & github follow me! （githubにもフォロー機能があるんだぜ！）
+    imageUrl: /twittericon.png
+    imageWidth: 300
+    imageHeight: 300
     imageTitle: niwanowa
     buttons:
+      - name: Home
+        url: /
       - name: Posts
-        url: posts
+        url: /posts
       - name: Categories
-        url: categories
+        url: /categories
 
   # home-info mode
   homeInfoParams:
@@ -111,15 +115,18 @@ params:
 
 menu:
   main:
+    - name: About Me
+      url: aboutme/
+      wegith: 1
     - name: Archives
       url: archives/
-      weight: 5
+      weight: 2
     - name: Search
       url: search/
-      weight: 10
+      weight: 3
     - name: Categories
       url: categories/
-      weight: 10
+      weight: 4
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
