@@ -3,6 +3,7 @@ title: "にわのわさんと逝くtarkov v14 lv1~15編"
 date: 2023-12-30T03:22:53Z
 draft: false
 ---
+今期はGrond Zeroから脱出するまでやばい
 
 # v14で頭に入れるべき変更点
 ## GROUND ZERO追加
