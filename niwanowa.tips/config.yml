@@ -138,6 +138,10 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
+  goldmark:
+    renderer:
+      hardWraps: true
+  
 
 outputs:
     home:
