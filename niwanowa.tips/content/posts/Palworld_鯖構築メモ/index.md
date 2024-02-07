@@ -31,3 +31,9 @@ cd /home/ec2-user/Steam/
 
 引っかかったところメモ
 ・8GBだとボリューム不足で落ちる。
+
+### 起動、停止用lambda構成
+
+費用削減のため、起動、停止用のlambdaを作成した。
+
+![alt text](image.png)
