@@ -4,4 +4,6 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-hugo new posts/$1/index.md
+today=`date "+%F"`
+
+hugo new posts/$today-$1/index.md
