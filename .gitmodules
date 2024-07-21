@@ -1,6 +1,9 @@
-[submodule "niwanowa.tips/themes/PaperMod"]
-	path = niwanowa.tips/themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "niwanowa.tips/themes/paper"]
+	path = niwanowa.tips/themes/paper
+	url = https://github.com/CaiJimmy/hugo-theme-stack
+[submodule "niwanowa.tips/themes/stack"]
+	path = niwanowa.tips/themes/stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack
