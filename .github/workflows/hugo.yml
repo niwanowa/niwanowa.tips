@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "niwanowa.tips/**"
+  workflow_dispatch:
 
 defaults:
   run:
