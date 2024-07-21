@@ -2,7 +2,7 @@ baseURL: "https://hugo.niwanowa.tips/"
 title: にわのわのブログ
 languageCode: "ja"
 paginate: 5
-theme: "Stack"
+theme: "stack"
 
 module:
     hugoVersion:
