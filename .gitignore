@@ -1,2 +1,6 @@
 .command
+
+# hugoの生成物
 niwanowa.tips/node_modules/*
+niwanowa.tips/public/*
+niwanowa.tips/resources/*

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "About Me"
 layout: "about me"
 url: "/aboutme"
@@ -7,4 +7,4 @@ ShowBreadCrumbs: false
 cover: 
     image: "/twittericon.png"
 ---
-{{<aboutme>}}
+{{<aboutme>}} -->
