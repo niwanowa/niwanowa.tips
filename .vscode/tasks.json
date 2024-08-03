@@ -19,7 +19,7 @@
         {
             "label": "hugo server",
             "type": "shell",
-            "command": "hugo server",
+            "command": "hugo server -D",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
