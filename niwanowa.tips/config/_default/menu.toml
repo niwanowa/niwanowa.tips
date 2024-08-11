@@ -1,16 +1,26 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+[[main]]
+identifier = "home"
+name = "Home"
+weight = 1
+url = "/"
+[main.params]
+icon = "home"
+newtab = false
+
+[[main]]
+identifier = "RSS"
+name = "RSS"
+weight = 2
+url = "/index.xml"
+[main.params]
+icon = "RSS"
+newtab = false
 
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/niwanowa"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +28,7 @@ icon = "brand-github"
 [[social]]
 identifier = "twitter"
 name = "Twitter"
-url = "https://twitter.com"
+url = "https://x.com/niwa_nowa"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-x"
