@@ -2,21 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "hugo shell",
-            "type": "shell",
-            "command": "hugo shell",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            },
-            "options": {
-                "cwd": "${workspaceFolder}/niwanowa.tips"
-            }
-        },
-        {
             "label": "hugo server",
             "type": "shell",
             "command": "hugo server -D",
