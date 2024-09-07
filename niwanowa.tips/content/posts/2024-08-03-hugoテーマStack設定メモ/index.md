@@ -7,8 +7,9 @@ draft: false
 ## はじめに
 
 本サイトはhugoで運用されている。
-気が向いたのでhugoのアップデートをしようとしたらdockerコンテナが公式から消えていて
-ただアップデートするだけじゃなかったのでついでにテーマもPaperModからStackへ変更することにした。
+気が向いたのでhugoのアップデートをしようとしたら公式ページからdockerでのインストール手順が公式から消えていて
+ただアップデートするだけともなかったのでついでにテーマもPaperModからStackへ変更することにした。
+*きちんとdockerの更新も止まってた
 
 [参考](https://qiita.com/ub0t0/items/4ac2f2d8c3e8fbdfcfad)：
 ![dockerが公式にいた証拠](image.png)
