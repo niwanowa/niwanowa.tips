@@ -16,9 +16,10 @@ pip freeze -l > requirements.txt
 そんな中、Poetryというツールを見つけました。
 これはnpm感覚で、モジュールを追加してくれたり、1コマンドで仮想環境のセットアップを終えてくれたりします。
 
-{{< blog-card "https://python-poetry.org/" >}}
+<https://python-poetry.org/>
 
-##インストール
+## インストール
+
 [公式ドキュメント](https://python-poetry.org/docs/)を参考に以下でできます。
 
 ```shell
@@ -26,22 +27,27 @@ curl -sSL https://install.python-poetry.org | python3 -
 ```
 
 ## 使い方
+
 ### プロジェクトの初期化
+
 ```shell
 poetry init -n
 ```
 
 ### パッケージの追加
+
 ```shell
 poetry add [パッケージ名]
 ```
 
 ### 実行
+
 ```shell
 poetry run python [ファイル名]
 ```
 
 ## まとめ
+
 自分の備忘録もかねてPoetryについて記事に書き起こしてみました。
 実行だけはpyenv-virtualenvよりも冗長になってしまいますが、  
 まぁ実行コマンドを手打ちする機会はほぼないので良いかなって感じです。
@@ -49,4 +55,5 @@ poetry run python [ファイル名]
 ちなみにpoetryは詩って意味だそう。
 
 ## 参考
-{{< blog-card "https://qiita.com/ksato9700/items/b893cf1db83605898d8a" >}}
+
+・<https://qiita.com/ksato9700/items/b893cf1db83605898d8a>
