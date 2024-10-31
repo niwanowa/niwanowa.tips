@@ -35,6 +35,7 @@ go version go1.22.6 linux/amd64
 今回はBuild from sourceの手順でインストールした
 ~WSLのubuntuにはsnapが入ってるのでこっちのほうが楽かもしれない~
 参考: [Linux | Hugo](https://gohugo.io/installation/linux/#build-from-source)
+アップデート時も同様のコマンドで行う
 
 ```bash
 CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
