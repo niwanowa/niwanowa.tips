@@ -4,6 +4,21 @@
   
   <https://hugo.niwanowa.tips/>
 
+## コマンドメモ
+
+### アップデート
+  
+  ```bash
+  CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+  ```
+
+### ローカルサーバー起動
+
+  ```bash
+  cd niwanowa.tips/
+  hugo server -D
+  ```
+
 ## 感謝
 
  Hugo を使った CloudFront + S3 のブログサイトを構築してみた 〜 GitHub Actions で CI/CD 付き | DevelopersIO
