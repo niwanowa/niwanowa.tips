@@ -8,8 +8,14 @@
 
 ### アップデート
   
+  win
   ```bash
   CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+  ```
+
+  mac
+  ```bash
+  brew upgrade hugo
   ```
 
 ### ローカルサーバー起動
