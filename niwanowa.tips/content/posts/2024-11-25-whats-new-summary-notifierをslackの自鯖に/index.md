@@ -1,6 +1,33 @@
 ---
-title: "2024 11 25 Whats New Summary Notifierをslackの自鯖に"
+title: "Whats New Summary Notifierをslackの自鯖に"
 date: 2024-11-25T22:26:10+09:00
 draft: true
 ---
 
+## はじめに
+
+aws-samples の中に[Whats New Summary Notifier](https://github.com/aws-samples/whats-new-summary-notifier)というものがあり、
+デフォルトだと AWS 最新情報 (What's New) の RSS を取得して、更新を claude-3-sonnet で要約して slack に通知してくれるものですが、
+設定ファイルの変更のみで任意の RSS を取得して slack に通知できるように作られています。
+
+こちらの導入ログと若干のカスタマイズを記載します。
+
+## 導入
+
+[README](https://github.com/aws-samples/whats-new-summary-notifier/blob/main/README_ja.md)そのままで動いたので手順は省略
+唯一記載がなかった Slack のワークフロー設定だけ自分のものをペタリ。
+![ワークフロー設定](image.png)
+
+動いてる様子はこんな感じ
+![様子1](image-1.png)
+![様子2](image-2.png)
+
+## カスタマイズ
+
+### 取得する RSSfeed の期日を変更
+
+デフォルトだと直近 7 日分の更新を取得しているが、1 日分に変更した
+[参考](https://github.com/niwanowa/whats-new-summary-notifier/pull/2/files)
+
+さもなくば初回起動時に鬼のような通知に見舞われるだろう(pre:Invent 期間だったのもあるだろうけど...)
+![Whats New Summary Notifierの暴走](image-3.png)
