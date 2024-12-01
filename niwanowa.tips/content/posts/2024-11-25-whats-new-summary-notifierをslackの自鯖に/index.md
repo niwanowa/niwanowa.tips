@@ -31,3 +31,15 @@ aws-samples の中に[Whats New Summary Notifier](https://github.com/aws-samples
 
 さもなくば初回起動時に鬼のような通知に見舞われるだろう(pre:Invent 期間だったのもあるだろうけど...)
 ![Whats New Summary Notifierの暴走](image-3.png)
+
+### モデルの変更
+
+Claude 3 Sonnet が設定されているので Claude 3.5 Sonnet に更新。
+ついでにデプロイ先のリージョンも東京に変更した。
+
+料金と出力の形式が変わらないのでプログラム的な変更は不要。
+(画像は東京リージョンじゃないけど値段は一緒)
+![値段](image-4.png)
+
+[参考 1](https://github.com/niwanowa/whats-new-summary-notifier/pull/5)
+[参考 2](https://github.com/niwanowa/whats-new-summary-notifier/pull/7)
