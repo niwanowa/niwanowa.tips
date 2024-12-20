@@ -1,7 +1,7 @@
 ---
 title: "Whats New Summary Notifierをslackの自鯖に"
-date: 2024-11-25T22:26:10+09:00
-draft: true
+date: 2024-12-20T22:26:10+09:00
+draft: false
 ---
 
 ## はじめに
@@ -46,3 +46,17 @@ Claude 3 Sonnet が設定されているので Claude 3.5 Sonnet に更新。
 
 [参考 1](https://github.com/niwanowa/whats-new-summary-notifier/pull/5)
 [参考 2](https://github.com/niwanowa/whats-new-summary-notifier/pull/7)
+
+### 購読する RSS の追加
+
+cdk.json の context.notifiers 配下に AwsWhatsNew を複製する形で追記することで RSS の追加が可能。
+ssm に webhook URL を増やせば通知先のチャンネルも増やせる。いいね。
+
+```shell
+aws ssm put-parameter \
+ --name "<任意の値>" \
+ --type "SecureString" \
+ --value "<Webhook URL を入力>"
+```
+
+[参考](https://github.com/niwanowa/whats-new-summary-notifier/pull/11)
