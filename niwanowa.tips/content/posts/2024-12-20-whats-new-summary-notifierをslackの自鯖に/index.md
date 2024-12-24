@@ -60,3 +60,8 @@ aws ssm put-parameter \
 ```
 
 [参考](https://github.com/niwanowa/whats-new-summary-notifier/pull/11)
+
+### 終わりに
+
+基本的にそのままで利用できて BIG 感謝です。AWS さまさま。
+唯一 ATOM に対応してなさそうだったので今度どうやったかを追記するかもしれん。
